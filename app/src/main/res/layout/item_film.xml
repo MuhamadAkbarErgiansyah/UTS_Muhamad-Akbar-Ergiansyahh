@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgFilm"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/txtJudul"
+            android:text="Judul Film"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunitobold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtDeskripsi"
+            android:text="Deskripsi Film"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunitoregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnPesan"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nunitobold"
+            android:text="pesana"
+            android:textColor="#2F80ED"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
