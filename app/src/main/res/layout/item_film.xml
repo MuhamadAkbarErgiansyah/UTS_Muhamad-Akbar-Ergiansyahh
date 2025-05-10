@@ -43,7 +43,7 @@
             android:layout_height="70dp"
             android:backgroundTint="@color/white"
             android:fontFamily="@font/nunitobold"
-            android:text="pesana"
+            android:text="pesan"
             android:textColor="#2F80ED"
             android:textSize="18sp" />
     </LinearLayout>
